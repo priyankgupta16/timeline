@@ -41,18 +41,6 @@ body {
     margin-left: -2px
   }
 
-  /* .timeline::after {
-    content: "";
-    position: absolute;
-    width: 3px;
-    height: 100%;
-    top: 0;
-    left: 50%;
-    background-color: red;
-    margin-left: -2px
-  }
-   */
-
 .row {
     display: flex;
     justify-content: space-between;
@@ -60,6 +48,18 @@ body {
     margin-bottom: 20px;
     height:80px;
     overflow: auto; 
+}
+  
+.row__left {
+    width: 45%;
+    overflow: auto;
+    position: absolute;
+    left: 0;
+    padding-bottom: 20px;
+}
+
+.row__left__text {
+    text-align: margin-left;
 }
 
 .row__mark {
@@ -79,20 +79,7 @@ body {
     background-color: green;
     margin-inline:auto ;
 }
-  
-.row__left {
-    width: 45%;
-    overflow: auto;
-    position: absolute;
-    left: 0;
-    padding-bottom: 20px;
-}
 
-.row__left__text {
-    text-align: margin-left;
-}
-
-  
 .row__right {
     width: 45%;
     overflow: auto;

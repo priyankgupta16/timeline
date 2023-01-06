@@ -33,7 +33,7 @@ timeline.innerHTML = task.map(
             <h3>` +
                  item.date +
            `</h3>` +
-            // (item.head && +
+            
                 `<p class="timeline--text--light">` + item.head + `</p>` +
           `</div>
         </div>

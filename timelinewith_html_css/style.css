@@ -4,12 +4,10 @@
     box-sizing: border-box;
   }
 
-
 body {
     background-color: white;
     padding: 20px;
   }
-
 
 .timeline {
     position: relative;

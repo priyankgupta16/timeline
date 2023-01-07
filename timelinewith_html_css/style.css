@@ -16,14 +16,14 @@ body {
     background-color: white;
 }
 
-.timeline--text{
+.row--text{
     font-family:  sans-serif;
     /* "Oswald", */
     font-size: 16px;
     font-weight: 600; 
 }
 
-.timeline--text--light{
+.text_sub--light{
     color: gray;
     font-weight: 400;
 }
@@ -56,7 +56,7 @@ body {
     padding-bottom: 20px;
 }
 
-.row__left__text {
+.left__text {
     text-align: margin-left;
 }
 
@@ -68,7 +68,7 @@ body {
     z-index: 10;
 }
 
-.row__mark__dot {
+.mark__dot {
     width: 26px;
     height: 26px;
     border-radius: 13px;
@@ -85,7 +85,7 @@ body {
     left: 55%;
 }
 
-.row__right__text {
+.right__text {
     text-align: margin-left;
     margin-left: 8px;
 }
